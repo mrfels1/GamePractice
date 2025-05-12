@@ -25,11 +25,7 @@ MonoBehaviour:
   m_SupportsTerrainHoles: 1
   m_SupportsHDR: 1
   m_HDRColorBufferPrecision: 0
-<<<<<<< HEAD
-  m_MSAA: 1
-=======
   m_MSAA: 2
->>>>>>> 08ed422 (initial commit)
   m_RenderScale: 1
   m_UpscalingFilter: 0
   m_FsrOverrideSharpness: 0

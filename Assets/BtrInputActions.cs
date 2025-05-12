@@ -92,12 +92,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
             ""id"": ""68cca02f-3b69-43aa-9c2c-21e8a4c387e4"",
             ""actions"": [
                 {
-<<<<<<< HEAD
-                    ""name"": ""Movement"",
-                    ""type"": ""Value"",
-                    ""id"": ""a88d2847-5785-4e60-836a-aa30bcac4493"",
-                    ""expectedControlType"": ""Vector2"",
-=======
                     ""name"": ""Gas"",
                     ""type"": ""Value"",
                     ""id"": ""a88d2847-5785-4e60-836a-aa30bcac4493"",
@@ -111,7 +105,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""d9cad468-835b-4a10-ba52-07922ce1ece0"",
                     ""expectedControlType"": ""Axis"",
->>>>>>> 08ed422 (initial commit)
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -164,15 +157,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-<<<<<<< HEAD
-                    ""name"": ""2D Vector"",
-                    ""id"": ""ef693302-f797-4652-8f72-53832ae49e50"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Movement"",
-=======
                     ""name"": ""1D Axis"",
                     ""id"": ""ef693302-f797-4652-8f72-53832ae49e50"",
                     ""path"": ""1DAxis"",
@@ -180,67 +164,28 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Gas"",
->>>>>>> 08ed422 (initial commit)
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
                 {
-<<<<<<< HEAD
-                    ""name"": ""up"",
-=======
                     ""name"": ""Positive"",
->>>>>>> 08ed422 (initial commit)
                     ""id"": ""52840162-0d75-4720-af86-8a6f054e8e6f"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-<<<<<<< HEAD
-                    ""action"": ""Movement"",
-=======
                     ""action"": ""Gas"",
->>>>>>> 08ed422 (initial commit)
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
-<<<<<<< HEAD
-                    ""name"": ""down"",
-=======
                     ""name"": ""Negative"",
->>>>>>> 08ed422 (initial commit)
                     ""id"": ""f6675b2c-612d-4afb-8543-323968d57a2e"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-<<<<<<< HEAD
-                    ""action"": ""Movement"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""4d4a4286-343b-4cec-a64f-9005169c58da"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Movement"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""10fda8df-590b-44ab-b2b7-52e82e361868"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Movement"",
-=======
                     ""action"": ""Gas"",
->>>>>>> 08ed422 (initial commit)
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -298,8 +243,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Switch_camera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-<<<<<<< HEAD
-=======
                 },
                 {
                     ""name"": ""1D Axis"",
@@ -333,7 +276,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""Turning"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
->>>>>>> 08ed422 (initial commit)
                 }
             ]
         }
@@ -342,12 +284,8 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
 }");
         // BTR
         m_BTR = asset.FindActionMap("BTR", throwIfNotFound: true);
-<<<<<<< HEAD
-        m_BTR_Movement = m_BTR.FindAction("Movement", throwIfNotFound: true);
-=======
         m_BTR_Gas = m_BTR.FindAction("Gas", throwIfNotFound: true);
         m_BTR_Turning = m_BTR.FindAction("Turning", throwIfNotFound: true);
->>>>>>> 08ed422 (initial commit)
         m_BTR_Turret_axis = m_BTR.FindAction("Turret_axis", throwIfNotFound: true);
         m_BTR_Shoot = m_BTR.FindAction("Shoot", throwIfNotFound: true);
         m_BTR_Aim = m_BTR.FindAction("Aim", throwIfNotFound: true);
@@ -433,12 +371,8 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
     // BTR
     private readonly InputActionMap m_BTR;
     private List<IBTRActions> m_BTRActionsCallbackInterfaces = new List<IBTRActions>();
-<<<<<<< HEAD
-    private readonly InputAction m_BTR_Movement;
-=======
     private readonly InputAction m_BTR_Gas;
     private readonly InputAction m_BTR_Turning;
->>>>>>> 08ed422 (initial commit)
     private readonly InputAction m_BTR_Turret_axis;
     private readonly InputAction m_BTR_Shoot;
     private readonly InputAction m_BTR_Aim;
@@ -456,11 +390,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public BTRActions(@BtrInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-<<<<<<< HEAD
-        /// Provides access to the underlying input action "BTR/Movement".
-        /// </summary>
-        public InputAction @Movement => m_Wrapper.m_BTR_Movement;
-=======
         /// Provides access to the underlying input action "BTR/Gas".
         /// </summary>
         public InputAction @Gas => m_Wrapper.m_BTR_Gas;
@@ -468,7 +397,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "BTR/Turning".
         /// </summary>
         public InputAction @Turning => m_Wrapper.m_BTR_Turning;
->>>>>>> 08ed422 (initial commit)
         /// <summary>
         /// Provides access to the underlying input action "BTR/Turret_axis".
         /// </summary>
@@ -515,18 +443,12 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_BTRActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_BTRActionsCallbackInterfaces.Add(instance);
-<<<<<<< HEAD
-            @Movement.started += instance.OnMovement;
-            @Movement.performed += instance.OnMovement;
-            @Movement.canceled += instance.OnMovement;
-=======
             @Gas.started += instance.OnGas;
             @Gas.performed += instance.OnGas;
             @Gas.canceled += instance.OnGas;
             @Turning.started += instance.OnTurning;
             @Turning.performed += instance.OnTurning;
             @Turning.canceled += instance.OnTurning;
->>>>>>> 08ed422 (initial commit)
             @Turret_axis.started += instance.OnTurret_axis;
             @Turret_axis.performed += instance.OnTurret_axis;
             @Turret_axis.canceled += instance.OnTurret_axis;
@@ -553,18 +475,12 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="BTRActions" />
         private void UnregisterCallbacks(IBTRActions instance)
         {
-<<<<<<< HEAD
-            @Movement.started -= instance.OnMovement;
-            @Movement.performed -= instance.OnMovement;
-            @Movement.canceled -= instance.OnMovement;
-=======
             @Gas.started -= instance.OnGas;
             @Gas.performed -= instance.OnGas;
             @Gas.canceled -= instance.OnGas;
             @Turning.started -= instance.OnTurning;
             @Turning.performed -= instance.OnTurning;
             @Turning.canceled -= instance.OnTurning;
->>>>>>> 08ed422 (initial commit)
             @Turret_axis.started -= instance.OnTurret_axis;
             @Turret_axis.performed -= instance.OnTurret_axis;
             @Turret_axis.canceled -= instance.OnTurret_axis;
@@ -621,18 +537,11 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
     public interface IBTRActions
     {
         /// <summary>
-<<<<<<< HEAD
-        /// Method invoked when associated input action "Movement" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-=======
         /// Method invoked when associated input action "Gas" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
->>>>>>> 08ed422 (initial commit)
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-<<<<<<< HEAD
-        void OnMovement(InputAction.CallbackContext context);
-=======
         void OnGas(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "Turning" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
@@ -641,7 +550,6 @@ public partial class @BtrInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnTurning(InputAction.CallbackContext context);
->>>>>>> 08ed422 (initial commit)
         /// <summary>
         /// Method invoked when associated input action "Turret_axis" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
