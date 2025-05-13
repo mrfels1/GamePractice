@@ -1,17 +1,11 @@
 fileFormatVersion: 2
 guid: 79459efec17a4d00a321bdcc27bbc385
 timeCreated: 1484172856
-<<<<<<< HEAD
-licenseType: Pro
-=======
 licenseType: Store
->>>>>>> 08ed422 (initial commit)
 NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
-=======
 AssetOrigin:
   serializedVersion: 1
   productId: 127325
@@ -20,4 +14,3 @@ AssetOrigin:
   assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF -
     Outline.mat
   uploadId: 691001
->>>>>>> 08ed422 (initial commit)

@@ -1,17 +1,11 @@
 fileFormatVersion: 2
 guid: 3f5b5dff67a942289a9defa416b206f3
 timeCreated: 1436653997
-<<<<<<< HEAD
-licenseType: Pro
-=======
 licenseType: Store
->>>>>>> 08ed422 (initial commit)
 NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
-=======
 AssetOrigin:
   serializedVersion: 1
   productId: 127325
@@ -19,4 +13,3 @@ AssetOrigin:
   packageVersion: 3.1
   assetPath: Assets/TextMesh Pro/Resources/TMP Settings.asset
   uploadId: 691001
->>>>>>> 08ed422 (initial commit)

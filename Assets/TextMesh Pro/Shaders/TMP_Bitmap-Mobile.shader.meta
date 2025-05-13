@@ -7,8 +7,6 @@ ShaderImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-<<<<<<< HEAD
-=======
 AssetOrigin:
   serializedVersion: 1
   productId: 127325
@@ -16,4 +14,3 @@ AssetOrigin:
   packageVersion: 3.1
   assetPath: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
   uploadId: 691001
->>>>>>> 08ed422 (initial commit)
