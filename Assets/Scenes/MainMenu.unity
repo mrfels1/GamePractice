@@ -1,4 +1,4 @@
-﻿%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
 OcclusionCullingSettings:
@@ -1397,8 +1397,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 961.9, y: 558.28}
-  m_SizeDelta: {x: 736, y: 494}
+  m_AnchoredPosition: {x: 961.9, y: 441}
+  m_SizeDelta: {x: 786.07, y: 333.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823841755
 MonoBehaviour:
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: baee1bfbad46d8f4291ecaa2b561d4be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a64073fc0267ae942ba44a9452b9f651, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
