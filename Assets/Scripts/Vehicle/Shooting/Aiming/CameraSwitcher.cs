@@ -12,14 +12,14 @@ public class CameraSwitcher : MonoBehaviour
     public float sensFirstPerson = 5f;
     public float sensThirdPerson = 5f;
 
-    private bool isFirstPerson = false;
+    private bool isFirstPerson = true;
     private BtrInputActions btrInputActions;
 
     void Awake(){
         btrInputActions = new BtrInputActions();
         btrInputActions.BTR.Switch_camera.performed += OnSwitchView;
-        turretY.ChangeCameraSensetivity(sensThirdPerson);
-        turretX.ChangeCameraSensetivity(sensThirdPerson);
+        turretY.ChangeCameraSensetivity(sensFirstPerson);
+        turretX.ChangeCameraSensetivity(sensFirstPerson);
     }
 
     // Update is called once per frame
@@ -35,7 +35,10 @@ public class CameraSwitcher : MonoBehaviour
     }
     void SetCameraState(bool firstperson){
         firstPersonCam.enabled = firstperson;
+        firstPersonCam.GetComponent<AudioListener>().enabled = firstperson;
+
         thirdPersonCam.enabled = !firstperson;
+        thirdPersonCam.GetComponent<AudioListener>().enabled = !firstperson;
         float newSensitivity = firstperson ? sensFirstPerson : sensThirdPerson;
         turretY.ChangeCameraSensetivity(newSensitivity);
         turretX.ChangeCameraSensetivity(newSensitivity);
